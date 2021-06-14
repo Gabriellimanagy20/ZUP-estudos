@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("https://cdn.statically.io/img/wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg");
+}
+
+main {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    color:white;
+}
+
+main > section img {
+    width: 200px;
+    height: 200px;
+}
+
+div{
+    margin: 5px;
+    word-wrap:normal;
+    height: auto;
+    max-width: 200px;
+    max-height: 254px;
+    text-align: center;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 450px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 4px 64px 0 #00ff59;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.title{
+    font-family: fantasy;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
